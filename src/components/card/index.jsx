@@ -1,6 +1,7 @@
 import { StylizedCard } from "./style"
 
 export const Card = ({product, addProductCart}) => {
+    
     return (
         <StylizedCard>
             <div className="img-container">
@@ -22,4 +23,5 @@ export const Card = ({product, addProductCart}) => {
             </div>
         </StylizedCard>
     )
+    
 }
